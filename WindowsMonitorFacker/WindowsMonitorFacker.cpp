@@ -32,7 +32,7 @@ int main()
             WakeMonitors(); // wake monitors
             start = steady_clock::now(); // reset start clock
             minTime = rand() % 50 + 15; // give new random time
-            int maxTime = minTime + 5;
+            maxTime = minTime + 5;
         }
     }
 }
